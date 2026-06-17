@@ -1,4 +1,5 @@
 # Day 1
+
 ## Introduction to Python
 ## Variables
 ## Data Types
@@ -7,6 +8,7 @@
 ## Looping Statements
 ## Functions
 ## Python OOPS
+
 # Day 2
 ## Global and Local data
 ## Constructors

@@ -6,8 +6,17 @@ class Customer:
         self.name = username
         self.card = card
         self.shopping_basket = []
-
+# method overload in polymorphism
     def login(email, passwd):
+        pass
+
+    def login(token):
+        pass
+
+    def login(certificate):
+        pass
+
+    def login(biometric):
         pass
 
     def check_out(self):
@@ -42,7 +51,7 @@ class SuperMarket():
     def start(self):
         card1 = Card(3000)
         cust1 = Customer("user1.email",12,"Bob",card1)
-
+        cust1.login("email",123456)
         p1 = Product("Bread",1.99)
         p2 = Product("Laptop",500)
         p3 = Product("Cofee",6.99)

@@ -4,6 +4,7 @@ import numpy as np
 # Create a one-dimensional NumPy array
 a = np.array([1, 2, 3, 4, 5])
 
+
 # Basic arithmetic operations
 added = a + 2  # Add 2 to each element
 multiplied = a * 2  # Multiply each element by 2

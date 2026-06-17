@@ -7,7 +7,7 @@ class Bird:
         print(f"{self.name} can fly.")
 
 # Define the subclass that inherits from Bird
-class Parrot(Bird):
+class Parrot(Bird): # inheritance
     def speak(self):
         print(f"{self.name} can speak.")
 

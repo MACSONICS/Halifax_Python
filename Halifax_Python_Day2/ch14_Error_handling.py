@@ -1,5 +1,5 @@
-def someFunction()
-print("Hello, world")
+def someFunction():
+    print("Hello, world")
 # Missing colon at the end of the function definition
 
 
@@ -56,3 +56,17 @@ try:
 except Exception as e:
     print(e)
 
+
+list_1 = [2,5,7,8]
+try:
+    print(12/0)
+    open("none_exiting.txt")
+    print(list_1[4])
+except IndexError as ie:
+    print(ie)
+except FileNotFoundError as fnfe:
+    print(fnfe)
+except Exception as ae:
+    print("Save my Job ", ae )
+finally:
+    print("only for cleaning ")

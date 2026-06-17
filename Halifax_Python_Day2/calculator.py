@@ -9,3 +9,7 @@ def multiply(x, y):
 
 def divide(x, y):
     return x / y
+
+if __name__ == '__main__':
+    print('inside calculator file')
+    print(add(4,6))
